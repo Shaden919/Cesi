@@ -17,7 +17,7 @@ public:
     float getY() const;
     float print() const;
     Vector minus(Point point) const;
-    Point add(Point point) const;
+    Point add(Vector vector) const;
 };
 
 

@@ -30,11 +30,11 @@ Vector Point::minus(Point point) const{
     
     return tmpVector;
 }
-Point Point::add(Point point) const{
+Point Point::add(Vector vector) const{
     Point tmpPoint;
 
-    tmpPoint.x = this->x + point.x;
-    tmpPoint.y = this->y + point.y;
+    tmpPoint.x = this->x + vector.getX();
+    tmpPoint.y = this->y + vector.getY();
     
     return tmpPoint;
 }
