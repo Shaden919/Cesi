@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/Exercice.dir/src/main.c.o CMakeFiles/Exercice.dir/src/Point2.c.o CMakeFiles/Exercice.dir/src/Segment2.c.o CMakeFiles/Exercice.dir/src/Vector2.c.o -o Exercice 
