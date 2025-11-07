@@ -23,6 +23,9 @@ float Vector::getY() const{
 double Vector::norm() const{
     return sqrt(this->x * this->x + this->y * this->y);
 }
+float Vector::dot(Vector vector) const{
+    return this->x * vector.x + this->y * vector.y;
+}
 float Vector::cross(Vector vector) const{
     return (this->x * vector.y) - (this->y * vector.x);
 }

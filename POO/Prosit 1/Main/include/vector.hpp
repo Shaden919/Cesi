@@ -13,6 +13,7 @@ public:
     void setY(float y);
     float getX() const;
     float getY() const;
+    float dot(Vector vector) const;
     double norm() const;
     float cross(Vector vector) const;
     Vector scalar(float scalar) const;
