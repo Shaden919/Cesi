@@ -13,9 +13,9 @@ public:
     ~Point();
     void setX(float x);
     void setY(float y);
+    void print() const;
     float getX() const;
     float getY() const;
-    float print() const;
     Vector minus(Point point) const;
     Point add(Vector vector) const;
 };

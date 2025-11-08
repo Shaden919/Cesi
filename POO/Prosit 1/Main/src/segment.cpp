@@ -10,13 +10,13 @@ Segment::~Segment(){}
 float Segment::length() const{
     return this->direction.norm();
 }
-Point Segment::setOrigin(Point point){
+void Segment::setOrigin(Point point){
     this->origin = point;
 }
 Point Segment::getOrigin() const{
     return this->origin;
 }
-Vector Segment::setDirection(Vector vector){
+void Segment::setDirection(Vector vector){
     this->direction = vector;
 }
 Vector Segment::getDirection() const{

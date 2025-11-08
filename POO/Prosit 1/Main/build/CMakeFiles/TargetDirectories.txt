@@ -1,0 +1,3 @@
+/home/shaden/CESI/CPIA2/POO/Prosit 1/Main/build/CMakeFiles/Exercice.dir
+/home/shaden/CESI/CPIA2/POO/Prosit 1/Main/build/CMakeFiles/edit_cache.dir
+/home/shaden/CESI/CPIA2/POO/Prosit 1/Main/build/CMakeFiles/rebuild_cache.dir

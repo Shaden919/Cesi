@@ -12,6 +12,7 @@ set(SOURCES
     src/main.cpp
     src/point.cpp
     src/vector.cpp
+    src/segment.cpp
 )
 
 # Création de l'exécutable

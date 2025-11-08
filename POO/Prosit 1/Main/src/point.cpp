@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-Point::Point(float x = 0, float y = 0){
+Point::Point(float x, float y){
     this->x = x;
     this->y = y;
 }
@@ -13,14 +13,14 @@ void Point::setX(float x){
 void Point::setY(float y){
     this->y = y;
 }
+void Point::print() const{
+    cout << "(" << this->x << "," << this->y << ")" << endl;
+}
 float Point::getX() const{
     return this->x;
 }
 float Point::getY() const{
     return this->y;
-}
-float Point::print() const{
-    cout << "(" << this->x << "," << this->y << ")" << endl;
 }
 Vector Point::minus(Point point) const{
     Vector tmpVector;

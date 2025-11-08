@@ -22,9 +22,9 @@ public:
     Segment(Point origin, Vector direction);
     ~Segment();
     float length() const;
-    Point setOrigin(Point point);
+    void setOrigin(Point point);
+    void setDirection(Vector vector);
     Point getOrigin() const;
-    Vector setDirection(Vector vector);
     Vector getDirection() const;
     IntersectionStatus intersect(Segment segment, Point point) const;
 };
