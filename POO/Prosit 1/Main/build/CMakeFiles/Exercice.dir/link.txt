@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/Exercice.dir/src/main.cpp.o CMakeFiles/Exercice.dir/src/point.cpp.o CMakeFiles/Exercice.dir/src/vector.cpp.o CMakeFiles/Exercice.dir/src/segment.cpp.o -o Exercice 
