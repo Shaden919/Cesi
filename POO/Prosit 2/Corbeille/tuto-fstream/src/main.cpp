@@ -73,7 +73,7 @@ int main()
 
     fichierEcriture.close(); // toujours fermer le fichier
 
-    cout << "Le fichier nouveau.txt a été écrit avec succès !" << endl;
+    cout << "Le fichier test.txt a été écrit avec succès !" << endl;
 
     return 0;
 }
