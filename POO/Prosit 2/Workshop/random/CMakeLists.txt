@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project("Ex 3")
+project("random")
 
 # C++ standard
 set(CMAKE_CXX_STANDARD 17)
@@ -10,8 +10,6 @@ include_directories(include)
 # Liste des fichiers sources
 set(SOURCES
     src/main.cpp
-    src/creature.cpp
-    src/heros.cpp
 )
 
 # Création de l'exécutable
