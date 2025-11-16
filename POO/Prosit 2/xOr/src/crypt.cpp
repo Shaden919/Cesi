@@ -57,7 +57,7 @@ bool Crypt::executeXOR(File file, int mode) {
             }
         }
 
-        newFile << xorLine << "\n";
+        tempFile.write(xorLine);
     }
 
     // Remplacement de l'ancien fichier
