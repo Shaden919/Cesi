@@ -9,8 +9,7 @@ class Guerrier : public Personnage//Signifie  : créer une classe Guerrier qui h
     public:    
         void frapperCommeUnSourdAvecUnMarteau() const;
         void sePresenter() const{
-              std::cout << "Bonjour, je m’appelle " << m_nom << "." << std::endl;
-              std::cout << "J’ai encore " << m_vie << " points de vie." << std::endl;  
+              Personnage::sePresenter();
               std::cout << "Je suis un guerrier redoutable." << std::endl;}
 };
 
