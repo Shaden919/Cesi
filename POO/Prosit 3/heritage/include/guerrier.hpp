@@ -11,6 +11,7 @@ class Guerrier : public Personnage//Signifie  : créer une classe Guerrier qui h
         void sePresenter() const{
               Personnage::sePresenter();
               std::cout << "Je suis un guerrier redoutable." << std::endl;}
+        void presenterArme() override; // overide ne fonctionne que sur les méthodes virtual
 };
 
 #endif
