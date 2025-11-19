@@ -4,12 +4,14 @@
 #include "polygone.hpp"
 #include "cerlce.hpp"
 #include "rectangle.hpp"
+#include "triangle.hpp"
 #include "carre.hpp"
 #include <cstdlib>
 #include <iostream>
+using namespace std;
 
 int main() {
-  Point p1(0.,0.), p2(1.,2.);
+  Point p1(0.,0.), p2(1.,2.),p3(4.,-2.);
   Vector vector(4.,5.);
   Cerlce cercle(&p1,5);
   cercle.afficheInfo();
@@ -22,7 +24,12 @@ int main() {
   rectangle.afficheInfo();
   p2 = p2.add(vector.negate());
   rectangle.afficheInfo();
-  
+
   Carre carre(&p2,vector);
   carre.afficheInfo();
+
+  Triangle triangle(&p3,longueur,largeur);
+  triangle.afficheInfo();
+  p3 = p3.add(vector);
+  triangle.afficheInfo();
 }
