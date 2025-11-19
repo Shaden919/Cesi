@@ -10,8 +10,6 @@ private:
 public:
     Cerlce(Point *origine,double rayon);
     ~Cerlce();
-    void setOrigine(Point* origine) override;
-    Point getOrigine() const override;
     void setRayon(double rayon);
     double getRayon() const;
     double aire() const override;

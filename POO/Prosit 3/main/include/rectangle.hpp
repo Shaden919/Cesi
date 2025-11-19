@@ -6,13 +6,13 @@
 class Rectangle : public Polygone
 {
 private:
-    double longueur,largeur;
+    Vector longueur,largeur;
 public:
-    Rectangle(Point origine,double longueur,double largeur);
+    Rectangle(Point* origine,Vector longueur,Vector largeur);
     ~Rectangle();
-    double aire() override;
-    double perimeter() override;
-    void afficheInfo() override;
+    double aire() const override;
+    double perimeter() const override;
+    void afficheInfo() const override;
 };
 
 #endif // DEF_RECTANGLE

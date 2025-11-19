@@ -3,6 +3,7 @@
 #include "segment.hpp"
 #include "polygone.hpp"
 #include "cerlce.hpp"
+#include "rectangle.hpp"
 #include <cstdlib>
 #include <iostream>
 
@@ -13,4 +14,11 @@ int main() {
   cercle.afficheInfo();
   p1 = p1.add(vector);
   cercle.afficheInfo();
+
+  Vector longueur(5.,0.);
+  Vector largeur(0.,10.);
+  Rectangle rectangle(&p2,longueur,largeur);
+  rectangle.afficheInfo();
+  p2 = p2.add(vector);
+  rectangle.afficheInfo();
 }

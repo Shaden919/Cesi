@@ -9,12 +9,7 @@ Cerlce::Cerlce(Point *origine,double rayon) {
     
 }
 Cerlce::~Cerlce() {}
-void Cerlce::setOrigine(Point* origine) {
-    this->origine = origine;
-}
-Point Cerlce::getOrigine() const {
-    return *origine;
-}
+
 void Cerlce::setRayon(double rayon) {
     if (rayon < 0){this->rayon = -rayon;return;}
     this->rayon = rayon;

@@ -9,8 +9,8 @@ protected:
     Point* origine;
 public:
     virtual ~Polygone() = 0;
-    virtual void setOrigine(Point* origine) = 0;
-    virtual Point getOrigine() const = 0;
+    void setOrigine(Point* origine);
+    Point getOrigine() const;
     virtual double aire() const = 0;
     virtual double perimeter() const = 0;
     virtual void afficheInfo() const = 0;
