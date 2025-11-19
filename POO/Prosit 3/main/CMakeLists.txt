@@ -12,7 +12,6 @@ set(SOURCES
     src/main.cpp
     src/point.cpp
     src/vector.cpp
-    src/segment.cpp
     src/polygone.cpp
     src/cercle.cpp
     src/rectangle.cpp

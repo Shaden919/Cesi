@@ -1,6 +1,5 @@
 #include "point.hpp"
 #include "vector.hpp"
-#include "segment.hpp"
 #include "polygone.hpp"
 #include "cerlce.hpp"
 #include "rectangle.hpp"
